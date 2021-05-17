@@ -10,4 +10,7 @@ From this we can determine a number of useful measures. The first is the R-Squar
 
 On an individual level, two metrics stand out as having low individual p-values: vehicle_length and ground_clearance. As such, we can state that those metrics have little random variance when it comes to mileage per gallon, and thus, are reasonably statistically significant. These two metrics also happen to have particularly high positive t-values, so that suggests a positive correlation between those metrics and mpg.
 
-The presence of these two metrics as evidence of correlation leads me to believe that the slope of the linear model is nonzero. Because these two metrics have correlation in the same direction, it's easy to make the assumption that the slope of the line will tend towards the positive. However, the lack of other decisive metrics suggests that this linear model is not acceptable. If it were as easy as making long cars with chassis that were low to the ground, every automobile would be low to the ground and long. Therefore, we need to see if there are more metrics that would help explain this phenomenon.
+The presence of these two metrics as evidence of correlation leads me to believe that the slope of the linear model is nonzero. Because these two metrics have correlation in the same direction, it's easy to make the assumption that the slope of the line will tend towards the positive. However, the lack of other decisive metrics suggests that this linear model is not acceptable. If it were as easy as making long cars with chassis above the ground, . Therefore, it's likely that there are other reasons for the differences in mpg variance aside from just the vehicle's length and ground clearance.
+
+## Summary Statistics on Suspension Coils
+
