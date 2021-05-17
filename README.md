@@ -4,7 +4,7 @@
 
 In order to determine the effect on mileage per gallon that any of the length or weight of a MechaCar, the angle of their spoiler, the clearance between the ground and the bottom of the chassis, and the all-wheel drive status of the Mechacar have, we performed a multivariable linear regression.
 
-[Insert Picture]
+![Insert Picture](https://raw.githubusercontent.com/SirNancyTheNegative/MechaCar_Statistical_Analysis/main/Images/LinRegResults.png)
 
 From this we can determine a number of useful measures. The first is the R-Squared values -- since they are high, but not very much so, this implies there is a fair amount of variance with each metric as listed above, but not very much of it that could call into question the validity of the rest of the data. The second is the p-value. It is a significantly small value: 5.35e-11. This is well below most conventional limits, and because of that, we can state that we can reject the hypothesis that there isn't any correlation between any of the metrics and the mileage per gallon of a MechaCar.
 
