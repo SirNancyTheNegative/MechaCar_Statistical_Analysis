@@ -17,9 +17,11 @@ The presence of these two metrics as evidence of correlation leads me to believe
 In order to determine if the current suspension coil manufacturing data meets the design specifications, we produced data through the use of the "summarize" function in dplyr. Specifically, we want to look at the mean, median, variance, and standard deviation of each lot and of the production line as a whole.
 
 Here is the data produced from summarizing all the data, regardless of lots:
+
 ![Insert Picture](https://raw.githubusercontent.com/SirNancyTheNegative/MechaCar_Statistical_Analysis/main/Images/totalSummary.png)
 
 Here is the data produced from summarizing the data, divided into lots:
+
 ![Insert Picture](https://raw.githubusercontent.com/SirNancyTheNegative/MechaCar_Statistical_Analysis/main/Images/lotSummary.png)
 
 MechaCar suspension coils are designed with the specification that there can be a maximum variance of 100 PSI. If we consider the entire set of suspension coils, the set passes this test, because the variance is only in the low 60s, and that's well within the parameters set by the specifications. However, if we take a look at Lot 3 specifically, it doesn't pass the specifications. As its variance is a whopping 170, that sits well beyond the limits set, and would fail the specifications. On the other hand, Lots 1 and 2 would pass, since their variances are rather low.
