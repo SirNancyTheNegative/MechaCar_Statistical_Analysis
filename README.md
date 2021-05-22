@@ -27,3 +27,13 @@ Here is the data produced from summarizing the data, divided into lots:
 MechaCar suspension coils are designed with the specification that there can be a maximum variance of 100 PSI. If we consider the entire set of suspension coils, the set passes this test, because the variance is only in the low 60s, and that's well within the parameters set by the specifications. However, if we take a look at Lot 3 specifically, it doesn't pass the specifications. As its variance is a whopping 170, that sits well beyond the limits set, and would fail the specifications. On the other hand, Lots 1 and 2 would pass, since their variances are rather low.
 
 ## T-Tests on Suspension Coils
+
+In order to better figure out if the lots themselves are statistically different from the population mean, we ran T-tests against the population mean of 1,500 PSI. The null hypothesis in this scenario is that the mean of every lot we test is going to be equal to the population mean.
+
+For all the lots at once, we obtained a p-value of 0.0628, and the mean value of the set was 1498.78. Although this value is a ways away from 1500, it seems to not be significant enough to reject the null hypothesis.
+
+For only lot 1, we obtained a mean of 1500.0, and received a p-value of 1. This is as close as it can get to the population mean as it can get, and as such there's no need to reject the null hypothesis for lot 1.
+
+For only lot 2, our mean was 1500.2, which gave us a p-value of 0.6072. This is still well within acceptable parameters, and there is no need to reject the null hypothesis for lot 2.
+
+Looking at lot 3, we get a mean of 1496.14, which produces a p-value of 0.04168. Since 0.05 is a reasonable cut-off point, it's fair to say we can reject the null hypothesis for this lot.
